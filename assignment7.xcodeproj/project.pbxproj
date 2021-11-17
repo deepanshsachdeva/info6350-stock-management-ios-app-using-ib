@@ -8,22 +8,134 @@
 
 /* Begin PBXBuildFile section */
 		B2E40E03273B1A3C00667144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E02273B1A3C00667144 /* AppDelegate.swift */; };
-		B2E40E05273B1A3C00667144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E04273B1A3C00667144 /* SceneDelegate.swift */; };
 		B2E40E07273B1A3C00667144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E06273B1A3C00667144 /* ViewController.swift */; };
-		B2E40E0A273B1A3C00667144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E08273B1A3C00667144 /* Main.storyboard */; };
 		B2E40E0C273B1A4300667144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E0B273B1A4300667144 /* Assets.xcassets */; };
 		B2E40E0F273B1A4300667144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E0D273B1A4300667144 /* LaunchScreen.storyboard */; };
+		B2E40E17273B1A8D00667144 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E16273B1A8D00667144 /* Main.xib */; };
+		B2E40E1B273B22C800667144 /* ManageCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E1A273B22C800667144 /* ManageCategoriesViewController.swift */; };
+		B2E40E1D273B233500667144 /* ManageCategories.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E1C273B233500667144 /* ManageCategories.xib */; };
+		B2E40E20273B2A2000667144 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E1F273B2A2000667144 /* Category.swift */; };
+		B2E40E22273B2A3B00667144 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E21273B2A3B00667144 /* Company.swift */; };
+		B2E40E24273B2A5400667144 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E23273B2A5400667144 /* Stock.swift */; };
+		B2E40E26273B2AA100667144 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E25273B2AA100667144 /* Customer.swift */; };
+		B2E40E28273B509A00667144 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E27273B509A00667144 /* DataStore.swift */; };
+		B2E40E2D273B586A00667144 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E2B273B586A00667144 /* AddCategoryViewController.swift */; };
+		B2E40E2E273B586A00667144 /* AddCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E2C273B586A00667144 /* AddCategoryViewController.xib */; };
+		B2E40E31273B63B800667144 /* UpdateCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E2F273B63B700667144 /* UpdateCategoryViewController.swift */; };
+		B2E40E32273B63B800667144 /* UpdateCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E30273B63B700667144 /* UpdateCategoryViewController.xib */; };
+		B2E40E35273B645600667144 /* DeleteCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E33273B645600667144 /* DeleteCategoryViewController.swift */; };
+		B2E40E36273B645600667144 /* DeleteCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E34273B645600667144 /* DeleteCategoryViewController.xib */; };
+		B2E40E39273B64B100667144 /* ListCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E37273B64B100667144 /* ListCategoryViewController.swift */; };
+		B2E40E3A273B64B100667144 /* ListCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E38273B64B100667144 /* ListCategoryViewController.xib */; };
+		B2E40E3E273B727400667144 /* ManageCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E3C273B727400667144 /* ManageCompanyViewController.swift */; };
+		B2E40E3F273B727400667144 /* ManageCompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E3D273B727400667144 /* ManageCompanyViewController.xib */; };
+		B2E40E42273B729C00667144 /* CreateCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E40273B729C00667144 /* CreateCompanyViewController.swift */; };
+		B2E40E43273B729C00667144 /* CreateCompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E41273B729C00667144 /* CreateCompanyViewController.xib */; };
+		B2E40E46273B72FF00667144 /* UpdateCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E44273B72FF00667144 /* UpdateCompanyViewController.swift */; };
+		B2E40E47273B72FF00667144 /* UpdateCompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E45273B72FF00667144 /* UpdateCompanyViewController.xib */; };
+		B2E40E4A273B731C00667144 /* DeleteCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E48273B731C00667144 /* DeleteCompanyViewController.swift */; };
+		B2E40E4B273B731C00667144 /* DeleteCompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E49273B731C00667144 /* DeleteCompanyViewController.xib */; };
+		B2E40E4E273B734C00667144 /* ListCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E4C273B734C00667144 /* ListCompanyViewController.swift */; };
+		B2E40E4F273B734C00667144 /* ListCompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E4D273B734C00667144 /* ListCompanyViewController.xib */; };
+		B2E40E51273B7FDB00667144 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E50273B7FDB00667144 /* Utils.swift */; };
+		B2E40E55273C35B800667144 /* ManageCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E53273C35B800667144 /* ManageCustomerViewController.swift */; };
+		B2E40E56273C35B800667144 /* ManageCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E54273C35B800667144 /* ManageCustomerViewController.xib */; };
+		B2E40E59273C375600667144 /* CreateCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E57273C375600667144 /* CreateCustomerViewController.swift */; };
+		B2E40E5A273C375600667144 /* CreateCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E58273C375600667144 /* CreateCustomerViewController.xib */; };
+		B2E40E5D273C376B00667144 /* UpdateCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E5B273C376B00667144 /* UpdateCustomerViewController.swift */; };
+		B2E40E5E273C376B00667144 /* UpdateCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E5C273C376B00667144 /* UpdateCustomerViewController.xib */; };
+		B2E40E61273C378900667144 /* DeleteCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E5F273C378900667144 /* DeleteCustomerViewController.swift */; };
+		B2E40E62273C378900667144 /* DeleteCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E60273C378900667144 /* DeleteCustomerViewController.xib */; };
+		B2E40E65273C379A00667144 /* ListCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E63273C379A00667144 /* ListCustomerViewController.swift */; };
+		B2E40E66273C379A00667144 /* ListCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E64273C379A00667144 /* ListCustomerViewController.xib */; };
+		B2E40E6A273C66C000667144 /* ManageStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E68273C66C000667144 /* ManageStockViewController.swift */; };
+		B2E40E6B273C66C000667144 /* ManageStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E69273C66C000667144 /* ManageStockViewController.xib */; };
+		B2E40E6E273C66D700667144 /* CreateStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E6C273C66D700667144 /* CreateStockViewController.swift */; };
+		B2E40E6F273C66D700667144 /* CreateStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E6D273C66D700667144 /* CreateStockViewController.xib */; };
+		B2E40E72273C66EF00667144 /* UpdateStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E70273C66EF00667144 /* UpdateStockViewController.swift */; };
+		B2E40E73273C66EF00667144 /* UpdateStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E71273C66EF00667144 /* UpdateStockViewController.xib */; };
+		B2E40E77273C6B7900667144 /* DeleteStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E75273C6B7800667144 /* DeleteStockViewController.swift */; };
+		B2E40E78273C6B7900667144 /* DeleteStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E76273C6B7800667144 /* DeleteStockViewController.xib */; };
+		B2E40E7B273C73BA00667144 /* SearchStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E79273C73BA00667144 /* SearchStockViewController.swift */; };
+		B2E40E7C273C73BA00667144 /* SearchStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E7A273C73BA00667144 /* SearchStockViewController.xib */; };
+		B2E40E81273C74F500667144 /* ListStocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E7F273C74F500667144 /* ListStocksViewController.swift */; };
+		B2E40E82273C74F500667144 /* ListStocksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E80273C74F500667144 /* ListStocksViewController.xib */; };
+		B2E40E86273CAB9D00667144 /* ManageOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E84273CAB9D00667144 /* ManageOrderViewController.swift */; };
+		B2E40E87273CAB9D00667144 /* ManageOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E85273CAB9D00667144 /* ManageOrderViewController.xib */; };
+		B2E40E89273CAD6700667144 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E88273CAD6700667144 /* Order.swift */; };
+		B2E40E8C273CAFA600667144 /* CreateOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E8A273CAFA600667144 /* CreateOrderViewController.swift */; };
+		B2E40E8D273CAFA600667144 /* CreateOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E8B273CAFA600667144 /* CreateOrderViewController.xib */; };
+		B2E40E90273CBEFA00667144 /* ListOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E8E273CBEFA00667144 /* ListOrderViewController.swift */; };
+		B2E40E91273CBEFA00667144 /* ListOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E8F273CBEFA00667144 /* ListOrderViewController.xib */; };
+		B2E40E94273CD24100667144 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E40E92273CD24100667144 /* OrderDetailsViewController.swift */; };
+		B2E40E95273CD24100667144 /* OrderDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E40E93273CD24100667144 /* OrderDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2E40DFF273B1A3C00667144 /* assignment7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E40E02273B1A3C00667144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2E40E04273B1A3C00667144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2E40E06273B1A3C00667144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2E40E09273B1A3C00667144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2E40E0B273B1A4300667144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E40E0E273B1A4300667144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2E40E10273B1A4300667144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E40E16273B1A8D00667144 /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		B2E40E1A273B22C800667144 /* ManageCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCategoriesViewController.swift; sourceTree = "<group>"; };
+		B2E40E1C273B233500667144 /* ManageCategories.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageCategories.xib; sourceTree = "<group>"; };
+		B2E40E1F273B2A2000667144 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B2E40E21273B2A3B00667144 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		B2E40E23273B2A5400667144 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		B2E40E25273B2AA100667144 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		B2E40E27273B509A00667144 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		B2E40E2B273B586A00667144 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		B2E40E2C273B586A00667144 /* AddCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCategoryViewController.xib; sourceTree = "<group>"; };
+		B2E40E2F273B63B700667144 /* UpdateCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCategoryViewController.swift; sourceTree = "<group>"; };
+		B2E40E30273B63B700667144 /* UpdateCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateCategoryViewController.xib; sourceTree = "<group>"; };
+		B2E40E33273B645600667144 /* DeleteCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCategoryViewController.swift; sourceTree = "<group>"; };
+		B2E40E34273B645600667144 /* DeleteCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCategoryViewController.xib; sourceTree = "<group>"; };
+		B2E40E37273B64B100667144 /* ListCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCategoryViewController.swift; sourceTree = "<group>"; };
+		B2E40E38273B64B100667144 /* ListCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCategoryViewController.xib; sourceTree = "<group>"; };
+		B2E40E3C273B727400667144 /* ManageCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCompanyViewController.swift; sourceTree = "<group>"; };
+		B2E40E3D273B727400667144 /* ManageCompanyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageCompanyViewController.xib; sourceTree = "<group>"; };
+		B2E40E40273B729C00667144 /* CreateCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyViewController.swift; sourceTree = "<group>"; };
+		B2E40E41273B729C00667144 /* CreateCompanyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCompanyViewController.xib; sourceTree = "<group>"; };
+		B2E40E44273B72FF00667144 /* UpdateCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCompanyViewController.swift; sourceTree = "<group>"; };
+		B2E40E45273B72FF00667144 /* UpdateCompanyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateCompanyViewController.xib; sourceTree = "<group>"; };
+		B2E40E48273B731C00667144 /* DeleteCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCompanyViewController.swift; sourceTree = "<group>"; };
+		B2E40E49273B731C00667144 /* DeleteCompanyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCompanyViewController.xib; sourceTree = "<group>"; };
+		B2E40E4C273B734C00667144 /* ListCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCompanyViewController.swift; sourceTree = "<group>"; };
+		B2E40E4D273B734C00667144 /* ListCompanyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCompanyViewController.xib; sourceTree = "<group>"; };
+		B2E40E50273B7FDB00667144 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B2E40E53273C35B800667144 /* ManageCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCustomerViewController.swift; sourceTree = "<group>"; };
+		B2E40E54273C35B800667144 /* ManageCustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageCustomerViewController.xib; sourceTree = "<group>"; };
+		B2E40E57273C375600667144 /* CreateCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomerViewController.swift; sourceTree = "<group>"; };
+		B2E40E58273C375600667144 /* CreateCustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCustomerViewController.xib; sourceTree = "<group>"; };
+		B2E40E5B273C376B00667144 /* UpdateCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCustomerViewController.swift; sourceTree = "<group>"; };
+		B2E40E5C273C376B00667144 /* UpdateCustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateCustomerViewController.xib; sourceTree = "<group>"; };
+		B2E40E5F273C378900667144 /* DeleteCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCustomerViewController.swift; sourceTree = "<group>"; };
+		B2E40E60273C378900667144 /* DeleteCustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCustomerViewController.xib; sourceTree = "<group>"; };
+		B2E40E63273C379A00667144 /* ListCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCustomerViewController.swift; sourceTree = "<group>"; };
+		B2E40E64273C379A00667144 /* ListCustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCustomerViewController.xib; sourceTree = "<group>"; };
+		B2E40E68273C66C000667144 /* ManageStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageStockViewController.swift; sourceTree = "<group>"; };
+		B2E40E69273C66C000667144 /* ManageStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageStockViewController.xib; sourceTree = "<group>"; };
+		B2E40E6C273C66D700667144 /* CreateStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStockViewController.swift; sourceTree = "<group>"; };
+		B2E40E6D273C66D700667144 /* CreateStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateStockViewController.xib; sourceTree = "<group>"; };
+		B2E40E70273C66EF00667144 /* UpdateStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStockViewController.swift; sourceTree = "<group>"; };
+		B2E40E71273C66EF00667144 /* UpdateStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateStockViewController.xib; sourceTree = "<group>"; };
+		B2E40E75273C6B7800667144 /* DeleteStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStockViewController.swift; sourceTree = "<group>"; };
+		B2E40E76273C6B7800667144 /* DeleteStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteStockViewController.xib; sourceTree = "<group>"; };
+		B2E40E79273C73BA00667144 /* SearchStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStockViewController.swift; sourceTree = "<group>"; };
+		B2E40E7A273C73BA00667144 /* SearchStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchStockViewController.xib; sourceTree = "<group>"; };
+		B2E40E7F273C74F500667144 /* ListStocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStocksViewController.swift; sourceTree = "<group>"; };
+		B2E40E80273C74F500667144 /* ListStocksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListStocksViewController.xib; sourceTree = "<group>"; };
+		B2E40E84273CAB9D00667144 /* ManageOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageOrderViewController.swift; sourceTree = "<group>"; };
+		B2E40E85273CAB9D00667144 /* ManageOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageOrderViewController.xib; sourceTree = "<group>"; };
+		B2E40E88273CAD6700667144 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B2E40E8A273CAFA600667144 /* CreateOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderViewController.swift; sourceTree = "<group>"; };
+		B2E40E8B273CAFA600667144 /* CreateOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateOrderViewController.xib; sourceTree = "<group>"; };
+		B2E40E8E273CBEFA00667144 /* ListOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrderViewController.swift; sourceTree = "<group>"; };
+		B2E40E8F273CBEFA00667144 /* ListOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListOrderViewController.xib; sourceTree = "<group>"; };
+		B2E40E92273CD24100667144 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		B2E40E93273CD24100667144 /* OrderDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +168,127 @@
 		B2E40E01273B1A3C00667144 /* assignment7 */ = {
 			isa = PBXGroup;
 			children = (
+				B2E40E29273B583300667144 /* ViewControllers */,
+				B2E40E1E273B29D100667144 /* Models */,
 				B2E40E02273B1A3C00667144 /* AppDelegate.swift */,
-				B2E40E04273B1A3C00667144 /* SceneDelegate.swift */,
 				B2E40E06273B1A3C00667144 /* ViewController.swift */,
-				B2E40E08273B1A3C00667144 /* Main.storyboard */,
 				B2E40E0B273B1A4300667144 /* Assets.xcassets */,
 				B2E40E0D273B1A4300667144 /* LaunchScreen.storyboard */,
 				B2E40E10273B1A4300667144 /* Info.plist */,
+				B2E40E16273B1A8D00667144 /* Main.xib */,
+				B2E40E27273B509A00667144 /* DataStore.swift */,
+				B2E40E50273B7FDB00667144 /* Utils.swift */,
 			);
 			path = assignment7;
+			sourceTree = "<group>";
+		};
+		B2E40E1E273B29D100667144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E1F273B2A2000667144 /* Category.swift */,
+				B2E40E21273B2A3B00667144 /* Company.swift */,
+				B2E40E23273B2A5400667144 /* Stock.swift */,
+				B2E40E25273B2AA100667144 /* Customer.swift */,
+				B2E40E88273CAD6700667144 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2E40E29273B583300667144 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E83273CAB8500667144 /* Order */,
+				B2E40E67273C66A100667144 /* Stock */,
+				B2E40E52273C348300667144 /* Customer */,
+				B2E40E3B273B722D00667144 /* Company */,
+				B2E40E2A273B584C00667144 /* Category */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2E40E2A273B584C00667144 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E1C273B233500667144 /* ManageCategories.xib */,
+				B2E40E1A273B22C800667144 /* ManageCategoriesViewController.swift */,
+				B2E40E2B273B586A00667144 /* AddCategoryViewController.swift */,
+				B2E40E2C273B586A00667144 /* AddCategoryViewController.xib */,
+				B2E40E2F273B63B700667144 /* UpdateCategoryViewController.swift */,
+				B2E40E30273B63B700667144 /* UpdateCategoryViewController.xib */,
+				B2E40E33273B645600667144 /* DeleteCategoryViewController.swift */,
+				B2E40E34273B645600667144 /* DeleteCategoryViewController.xib */,
+				B2E40E37273B64B100667144 /* ListCategoryViewController.swift */,
+				B2E40E38273B64B100667144 /* ListCategoryViewController.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B2E40E3B273B722D00667144 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E3C273B727400667144 /* ManageCompanyViewController.swift */,
+				B2E40E3D273B727400667144 /* ManageCompanyViewController.xib */,
+				B2E40E40273B729C00667144 /* CreateCompanyViewController.swift */,
+				B2E40E41273B729C00667144 /* CreateCompanyViewController.xib */,
+				B2E40E44273B72FF00667144 /* UpdateCompanyViewController.swift */,
+				B2E40E45273B72FF00667144 /* UpdateCompanyViewController.xib */,
+				B2E40E48273B731C00667144 /* DeleteCompanyViewController.swift */,
+				B2E40E49273B731C00667144 /* DeleteCompanyViewController.xib */,
+				B2E40E4C273B734C00667144 /* ListCompanyViewController.swift */,
+				B2E40E4D273B734C00667144 /* ListCompanyViewController.xib */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		B2E40E52273C348300667144 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E53273C35B800667144 /* ManageCustomerViewController.swift */,
+				B2E40E54273C35B800667144 /* ManageCustomerViewController.xib */,
+				B2E40E57273C375600667144 /* CreateCustomerViewController.swift */,
+				B2E40E58273C375600667144 /* CreateCustomerViewController.xib */,
+				B2E40E5B273C376B00667144 /* UpdateCustomerViewController.swift */,
+				B2E40E5C273C376B00667144 /* UpdateCustomerViewController.xib */,
+				B2E40E5F273C378900667144 /* DeleteCustomerViewController.swift */,
+				B2E40E60273C378900667144 /* DeleteCustomerViewController.xib */,
+				B2E40E63273C379A00667144 /* ListCustomerViewController.swift */,
+				B2E40E64273C379A00667144 /* ListCustomerViewController.xib */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		B2E40E67273C66A100667144 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E68273C66C000667144 /* ManageStockViewController.swift */,
+				B2E40E69273C66C000667144 /* ManageStockViewController.xib */,
+				B2E40E6C273C66D700667144 /* CreateStockViewController.swift */,
+				B2E40E6D273C66D700667144 /* CreateStockViewController.xib */,
+				B2E40E70273C66EF00667144 /* UpdateStockViewController.swift */,
+				B2E40E71273C66EF00667144 /* UpdateStockViewController.xib */,
+				B2E40E75273C6B7800667144 /* DeleteStockViewController.swift */,
+				B2E40E76273C6B7800667144 /* DeleteStockViewController.xib */,
+				B2E40E79273C73BA00667144 /* SearchStockViewController.swift */,
+				B2E40E7A273C73BA00667144 /* SearchStockViewController.xib */,
+				B2E40E7F273C74F500667144 /* ListStocksViewController.swift */,
+				B2E40E80273C74F500667144 /* ListStocksViewController.xib */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		B2E40E83273CAB8500667144 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B2E40E84273CAB9D00667144 /* ManageOrderViewController.swift */,
+				B2E40E85273CAB9D00667144 /* ManageOrderViewController.xib */,
+				B2E40E8A273CAFA600667144 /* CreateOrderViewController.swift */,
+				B2E40E8B273CAFA600667144 /* CreateOrderViewController.xib */,
+				B2E40E8E273CBEFA00667144 /* ListOrderViewController.swift */,
+				B2E40E8F273CBEFA00667144 /* ListOrderViewController.xib */,
+				B2E40E92273CD24100667144 /* OrderDetailsViewController.swift */,
+				B2E40E93273CD24100667144 /* OrderDetailsViewController.xib */,
+			);
+			path = Order;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +349,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E40E3F273B727400667144 /* ManageCompanyViewController.xib in Resources */,
+				B2E40E6F273C66D700667144 /* CreateStockViewController.xib in Resources */,
+				B2E40E3A273B64B100667144 /* ListCategoryViewController.xib in Resources */,
+				B2E40E43273B729C00667144 /* CreateCompanyViewController.xib in Resources */,
+				B2E40E1D273B233500667144 /* ManageCategories.xib in Resources */,
+				B2E40E87273CAB9D00667144 /* ManageOrderViewController.xib in Resources */,
+				B2E40E66273C379A00667144 /* ListCustomerViewController.xib in Resources */,
+				B2E40E62273C378900667144 /* DeleteCustomerViewController.xib in Resources */,
+				B2E40E82273C74F500667144 /* ListStocksViewController.xib in Resources */,
+				B2E40E4F273B734C00667144 /* ListCompanyViewController.xib in Resources */,
+				B2E40E78273C6B7900667144 /* DeleteStockViewController.xib in Resources */,
+				B2E40E47273B72FF00667144 /* UpdateCompanyViewController.xib in Resources */,
+				B2E40E2E273B586A00667144 /* AddCategoryViewController.xib in Resources */,
+				B2E40E36273B645600667144 /* DeleteCategoryViewController.xib in Resources */,
+				B2E40E32273B63B800667144 /* UpdateCategoryViewController.xib in Resources */,
+				B2E40E5A273C375600667144 /* CreateCustomerViewController.xib in Resources */,
+				B2E40E5E273C376B00667144 /* UpdateCustomerViewController.xib in Resources */,
+				B2E40E91273CBEFA00667144 /* ListOrderViewController.xib in Resources */,
+				B2E40E8D273CAFA600667144 /* CreateOrderViewController.xib in Resources */,
 				B2E40E0F273B1A4300667144 /* LaunchScreen.storyboard in Resources */,
+				B2E40E95273CD24100667144 /* OrderDetailsViewController.xib in Resources */,
+				B2E40E7C273C73BA00667144 /* SearchStockViewController.xib in Resources */,
+				B2E40E6B273C66C000667144 /* ManageStockViewController.xib in Resources */,
+				B2E40E73273C66EF00667144 /* UpdateStockViewController.xib in Resources */,
+				B2E40E56273C35B800667144 /* ManageCustomerViewController.xib in Resources */,
+				B2E40E4B273B731C00667144 /* DeleteCompanyViewController.xib in Resources */,
 				B2E40E0C273B1A4300667144 /* Assets.xcassets in Resources */,
-				B2E40E0A273B1A3C00667144 /* Main.storyboard in Resources */,
+				B2E40E17273B1A8D00667144 /* Main.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +388,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E40E07273B1A3C00667144 /* ViewController.swift in Sources */,
+				B2E40E61273C378900667144 /* DeleteCustomerViewController.swift in Sources */,
+				B2E40E77273C6B7900667144 /* DeleteStockViewController.swift in Sources */,
+				B2E40E28273B509A00667144 /* DataStore.swift in Sources */,
+				B2E40E2D273B586A00667144 /* AddCategoryViewController.swift in Sources */,
+				B2E40E26273B2AA100667144 /* Customer.swift in Sources */,
+				B2E40E86273CAB9D00667144 /* ManageOrderViewController.swift in Sources */,
+				B2E40E46273B72FF00667144 /* UpdateCompanyViewController.swift in Sources */,
+				B2E40E4E273B734C00667144 /* ListCompanyViewController.swift in Sources */,
+				B2E40E8C273CAFA600667144 /* CreateOrderViewController.swift in Sources */,
+				B2E40E89273CAD6700667144 /* Order.swift in Sources */,
+				B2E40E81273C74F500667144 /* ListStocksViewController.swift in Sources */,
+				B2E40E42273B729C00667144 /* CreateCompanyViewController.swift in Sources */,
+				B2E40E6E273C66D700667144 /* CreateStockViewController.swift in Sources */,
+				B2E40E94273CD24100667144 /* OrderDetailsViewController.swift in Sources */,
+				B2E40E39273B64B100667144 /* ListCategoryViewController.swift in Sources */,
 				B2E40E03273B1A3C00667144 /* AppDelegate.swift in Sources */,
-				B2E40E05273B1A3C00667144 /* SceneDelegate.swift in Sources */,
+				B2E40E24273B2A5400667144 /* Stock.swift in Sources */,
+				B2E40E72273C66EF00667144 /* UpdateStockViewController.swift in Sources */,
+				B2E40E1B273B22C800667144 /* ManageCategoriesViewController.swift in Sources */,
+				B2E40E5D273C376B00667144 /* UpdateCustomerViewController.swift in Sources */,
+				B2E40E51273B7FDB00667144 /* Utils.swift in Sources */,
+				B2E40E6A273C66C000667144 /* ManageStockViewController.swift in Sources */,
+				B2E40E22273B2A3B00667144 /* Company.swift in Sources */,
+				B2E40E20273B2A2000667144 /* Category.swift in Sources */,
+				B2E40E31273B63B800667144 /* UpdateCategoryViewController.swift in Sources */,
+				B2E40E35273B645600667144 /* DeleteCategoryViewController.swift in Sources */,
+				B2E40E3E273B727400667144 /* ManageCompanyViewController.swift in Sources */,
+				B2E40E4A273B731C00667144 /* DeleteCompanyViewController.swift in Sources */,
+				B2E40E59273C375600667144 /* CreateCustomerViewController.swift in Sources */,
+				B2E40E55273C35B800667144 /* ManageCustomerViewController.swift in Sources */,
+				B2E40E90273CBEFA00667144 /* ListOrderViewController.swift in Sources */,
+				B2E40E65273C379A00667144 /* ListCustomerViewController.swift in Sources */,
+				B2E40E7B273C73BA00667144 /* SearchStockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B2E40E08273B1A3C00667144 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2E40E09273B1A3C00667144 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B2E40E0D273B1A4300667144 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,9 +563,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = assignment7/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +590,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = assignment7/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
